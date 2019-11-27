@@ -181,7 +181,7 @@ def game_scene():
     # create aliens
     aliens = []
     for alien_number in range(constants.TOTAL_NUMBER_OF_ALIENS):
-        a_single_alien = stage.Sprite(image_bank_1, 7-8, constants.OFF_SCREEN_X, constants.OFF_SCREEN_Y)
+        a_single_alien = stage.Sprite(image_bank_1, 7, constants.OFF_SCREEN_X, constants.OFF_SCREEN_Y)
         aliens.append(a_single_alien)
 
     # current number of aliens that should be moving down screen, start with just 1
